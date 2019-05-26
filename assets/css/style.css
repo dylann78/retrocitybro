@@ -141,6 +141,17 @@ body,
     bottom: 0px;
     background: rgba(0, 0, 0, 0.4);
     padding: 1rem 1rem;
-    width: 100%;
+    width: calc(100% - 1rem);
     color: #fff;
+    text-align: center;
+}
+
+.card .info button{
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.card .info .title{
+    font-size: 1.5rem;
 }
