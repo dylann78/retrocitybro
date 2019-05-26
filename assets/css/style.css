@@ -43,6 +43,9 @@ body,
     background: #000;
 }
 
+#header{
+    margin-bottom: 1rem;
+}
 #header .top {
     padding: 1em 0;
 }
@@ -66,11 +69,11 @@ body,
 }
 
 .full-container {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.flex {
+.flex, .row {
     display: flex;
 }
 
@@ -120,4 +123,24 @@ body,
     background: #000;
     color: #fff;
     text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card {
+    position: relative;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.card.large {
+    height: 300px;
+}
+
+.card .info{
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1rem 1rem;
+    width: 100%;
+    color: #fff;
 }
