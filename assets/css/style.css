@@ -24,11 +24,75 @@
 }
 
 #nav-links a {
-   color: rgb(255, 255, 255)
-
+    color: rgb(255, 255, 255)
 }
 
 .boxed {
     border: 20px solid rgba(0, 0, 0, 0.041);
-  }
+}
 
+body,
+#app {
+    min-height: 100vh;
+    height: 100%;
+}
+
+#footer,
+#header .top {
+    color: #fff;
+    background: #000;
+}
+
+#header .top {
+    padding: 1em 0;
+}
+
+#header .bottom {
+
+}
+
+.column {
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+}
+
+.column.bottom {
+    align-self: flex-end;
+}
+
+.column + .column {
+    margin-left: 30vw;
+}
+
+.full-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.between {
+    justify-content: space-between
+}
+
+.controls * {
+    margin: 0 0.5rem;
+}
+
+.social {
+    margin-bottom: 1rem;
+}
+
+.icon {
+    border-radius: 100%;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+}
+
+.icon + .icon {
+    margin-left: 0.75rem;
+}

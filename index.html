@@ -1,29 +1,81 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>Home</title>
+    <title>RetroCity Bro</title>
+
     <!-- External CSS Stylesheet -->
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/grid.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    
-    <nav id="site-nav">
-        <img id="logo" src="assets/Images/index.html.png" alt="RetroCityLogo">
-    
-        <ul id="nav-links">
-            <li><a href="#">123 Harvey Avenue Kelowna B.C.</a></li>
-            <li><a href="#">Tel: (999) 555-5555</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sign Up</a></li>
-            
-        </ul>
-    
-    
-    </nav>
+    <div id="app">
+        <header id="header">
+            <div class="top">
+                <div class="flex full-container between">
+                    <div class="address">
+                        123 Harvey Avenue Kelowna B.C.
+                    </div>
+                    <a class="phone" href="+tel:9995555555">
+                        Tel: (999) 555-5555
+                    </a>
 
+                    <div class="flex controls">
+                        <a class="login" href="javascript:void(0)">
+                            Login
+                        </a>
+                        <a class="register" href="javascript:void(0)">
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="bottom">
+                <div class="full-container">
+                    <nav id="site-nav">
+                        <img id="logo" src="assets/Images/index.html.png" alt="RetroCityLogo">
+                    
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <div class="full-container">
+
+            </div>
+        </main>
+    </div>
+    <footer id="footer">
+        <div class="full-container flex row">
+            <div class="column">
+                <div class="flex social">
+                    <div class="icon facebook"></div>
+                    <div class="icon twitter"></div>
+                    <div class="icon google"></div>
+                </div>
+
+                <nav class="footer-links">
+                    <ul>
+                        <li><a href="javascript:void(0)">Career</a></li>
+                        <li><a href="javascript:void(0)">Contact</a></li>
+                        <li><a href="javascript:void(0)">Privacy</a></li>
+                        <li><a href="javascript:void(0)">Terms</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="column bottom">
+                <div class="slogan">
+                    <img id="footer-logo" src="#" alt="Logo">
+                    <p>
+                        We are the best
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
 
